@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 class AssertionTest(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome(r'D:\Documents\WebDrivers\chromedriver.exe')
+        self.driver = webdriver.Chrome('chromedriver.exe')
         self.driver.maximize_window()
         self.driver.get('http://demo-store.seleniumacademy.com/')
 
